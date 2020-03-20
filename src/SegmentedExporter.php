@@ -87,7 +87,7 @@ class SegmentedExporter extends MediaExporter
 
     public function getSegmentFilename(): string
     {
-        return $this->getFormattedFilename('_%05d.png');
+        return $this->getFormattedFilename('_%05d.ts');
     }
 
     protected function getFormattedFilename(string $suffix = ''): string
