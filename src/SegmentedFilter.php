@@ -46,7 +46,7 @@ class SegmentedFilter implements VideoFilterInterface
             '-f',
             'segment',
             '-segment_format',
-            'mpeg_ts',
+            'png',
             '-segment_list',
             $this->getPlaylistPath(),
             '-segment_time',
